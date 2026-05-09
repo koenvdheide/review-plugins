@@ -4,8 +4,8 @@
     "name": "Koen van der Heide"
   },
   "metadata": {
-    "description": "Workflow plugins for Claude Code: external LLM CLI wrappers, QA reviewer subagent, brainstorming, and session-handoff prep.",
-    "version": "1.1.0"
+    "description": "Workflow plugins for Claude Code: external LLM CLI wrappers, QA reviewer subagent, and session-handoff prep.",
+    "version": "1.2.0"
   },
   "plugins": [
     {
@@ -39,17 +39,6 @@
       "description": "Wraps the Gemini CLI as an independent analysis partner from a different model family — /gemini:gemini skill for brainstorm, red-team, diff-review, and other modes",
       "category": "llm-tool",
       "keywords": ["gemini", "review", "llm", "cli", "red-team"],
-      "license": "MIT"
-    },
-    {
-      "name": "brainstorming",
-      "source": {
-        "source": "url",
-        "url": "https://github.com/koenvdheide/brainstorming-skill.git"
-      },
-      "description": "Spec-document brainstorming skill: /brainstorming:brainstorming walks from idea to approved spec via clarifying questions and External Review Round with reviewer subagent + /codex:codex red-team. Fork of the brainstorming skill from obra/superpowers.",
-      "category": "workflow",
-      "keywords": ["brainstorming", "spec", "design", "review"],
       "license": "MIT"
     },
     {
